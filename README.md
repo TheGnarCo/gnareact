@@ -16,3 +16,11 @@ yarn
 ```
 npm run build
 ```
+
+3) Run the app
+
+```
+npm start
+```
+
+4) Visit `localhost:8080` in your browser
