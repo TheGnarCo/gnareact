@@ -2,13 +2,15 @@
   "name": "example-app",
   "version": "0.0.1",
   "description": "Example app for the React Lunch & Learn",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "repository": "https://github.com/TheGnarCo/gnarlist.git",
   "author": "Mike Stone <mike@gnar.dog>",
   "license": "MIT",
   "dependencies": {
     "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
     "babel-preset-latest": "^6.24.1",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^2.4.1"
   }
 }
