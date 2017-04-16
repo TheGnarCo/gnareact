@@ -1,0 +1,9 @@
+{
+  "name": "example-app",
+  "version": "0.0.1",
+  "description": "Example app for the React Lunch & Learn",
+  "main": "index.js",
+  "repository": "https://github.com/TheGnarCo/gnarlist.git",
+  "author": "Mike Stone <mike@gnar.dog>",
+  "license": "MIT"
+}
