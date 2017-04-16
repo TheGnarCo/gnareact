@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
 
+import HelloWorld from 'components/HelloWorld';
+
 class App extends Component {
   render () {
-    return <h1 className="app__header">Hello world</h1>;
+    return (
+      <div>
+        <HelloWorld />
+      </div>
+    );
   }
 }
 
