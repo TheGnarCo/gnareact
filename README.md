@@ -1,6 +1,6 @@
-# Example App
+# Gnareact
 
-An example app for the React Lunch & Learn presented April 19, 2017.
+The Gnar's React/Redux app starter
 
 ## Setup
 
