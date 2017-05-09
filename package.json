@@ -1,14 +1,15 @@
 {
-  "name": "example-app",
+  "name": "gnareact",
   "version": "0.0.1",
-  "description": "Example app for the React Lunch & Learn",
+  "description": "The Gnar's React app starter kit",
   "main": "dist/bundle.js",
   "repository": "https://github.com/TheGnarCo/gnarlist.git",
   "author": "Mike Stone <mike@gnar.dog>",
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "start": "node server.js"
+    "start": "npm run build && node server.js",
+    "test": "mocha src/test/.setup.js src/**/*.tests.js*"
   },
   "dependencies": {
     "babel-core": "^6.24.1",
@@ -29,5 +30,12 @@
     "style-loader": "^0.16.1",
     "webpack": "^2.4.1",
     "webpack-dev-middleware": "^1.10.1"
+  },
+  "devDependencies": {
+    "enzyme": "^2.8.2",
+    "expect": "^1.20.2",
+    "jsdom": "^10.1.0",
+    "mocha": "^3.3.0",
+    "react-test-renderer": "^15.5.4"
   }
 }
