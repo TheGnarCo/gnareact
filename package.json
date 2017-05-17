@@ -8,8 +8,10 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
+    "lint": "eslint src",
+    "mocha": "mocha --compilers babel-core/register --require src/test/.setup.js --recursive src/**/*.tests.js*",
     "start": "npm run build && node server.js",
-    "test": "mocha --compilers babel-core/register --require src/test/.setup.js --recursive src/**/*.tests.js*"
+    "test": "npm run lint && npm run mocha"
   },
   "dependencies": {
     "babel-core": "^6.24.1",
@@ -32,7 +34,13 @@
     "webpack-dev-middleware": "^1.10.1"
   },
   "devDependencies": {
+    "babel-eslint": "^7.2.3",
     "enzyme": "^2.8.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1",
     "expect": "^1.20.2",
     "jsdom": "^10.1.0",
     "mocha": "^3.3.0",
