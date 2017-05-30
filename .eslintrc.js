@@ -35,6 +35,9 @@ module.exports = {
     'import/resolver': {
       webpack: {
         config: path.join(__dirname, 'webpack.config.js')
+      },
+      node: {
+        paths: 'src'
       }
     }
   }
