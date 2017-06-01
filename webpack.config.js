@@ -21,9 +21,9 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        loader: ExtractTextPlugin.extract({
+        use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
-          loader: [
+          use: [
             { loader: 'css-loader',
               query: {
                 minimize: true
