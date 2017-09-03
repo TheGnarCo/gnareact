@@ -34,6 +34,7 @@
     "redux-entity-config": "^1.0.0",
     "redux-thunk": "^2.2.0",
     "sass-loader": "^6.0.3",
+    "schlepp": "^1.0.4",
     "style-loader": "^0.16.1",
     "webpack": "^2.4.1",
     "webpack-dev-middleware": "^1.10.1"
