@@ -2,7 +2,7 @@ import React from 'react';
 import expect from 'expect';
 import { mount } from 'enzyme';
 
-import App from './App';
+import App from 'components/App';
 
 describe('App - component', () => {
   it('renders', () => {
