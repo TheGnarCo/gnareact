@@ -13,17 +13,19 @@ Initial setup was completed with slight modifications following Andrew Farmer's
 yarn
 ```
 
-2) Build the app
+2) Update the app name and API host in `src/constants/index.js`
+
+3) Build the app
 
 
 ```
-npm run build
+yarn build
 ```
 
-3) Run the app
+4) Run the app
 
 ```
-npm start
+yarn start
 ```
 
-4) Visit `localhost:8080` in your browser
+5) Visit `localhost:8080` in your browser

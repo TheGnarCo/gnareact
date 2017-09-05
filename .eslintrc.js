@@ -26,6 +26,7 @@ module.exports = {
     'no-param-reassign': 0,
     'new-cap': 0,
     'import/no-unresolved': 'error',
+    'import/no-extraneous-dependencies': ['error', { 'devDependencies': true }],
     'linebreak-style': 0,
     'import/no-named-as-default': 'off',
     'import/no-named-as-default-member': 'off',
