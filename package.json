@@ -10,7 +10,8 @@
     "build": "webpack",
     "lint": "eslint src",
     "mocha": "NODE_PATH=./src mocha --compilers babel-core/register --require src/test/.setup.js --recursive './{,!(node_modules)/**/}*.tests.js*'",
-    "start": "npm run build && node server.js",
+    "start:dev": "webpack --watch",
+    "start:prod": "npm run build",
     "test": "npm run lint && npm run mocha"
   },
   "dependencies": {
@@ -23,7 +24,6 @@
     "css-loader": "^0.28.0",
     "es6-object-assign": "^1.1.0",
     "es6-promise": "^4.1.1",
-    "express": "^4.15.2",
     "extract-text-webpack-plugin": "^2.1.0",
     "history": "^4.7.2",
     "import-glob-loader": "^1.1.0",
@@ -43,8 +43,7 @@
     "sass-loader": "^6.0.3",
     "schlepp": "^1.0.4",
     "style-loader": "^0.16.1",
-    "webpack": "^2.4.1",
-    "webpack-dev-middleware": "^1.10.1"
+    "webpack": "^2.4.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
