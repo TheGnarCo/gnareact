@@ -13,5 +13,5 @@ class Api extends Schlepp {
 
 export default new Api({
   host: constants.API_HOST,
-  bearerTokenKeyInLocalStorage: `${constants.APP_NAME}::auth_token`,
+  bearerTokenKeyInLocalStorage: `${constants.APP_NAME}:auth_token`,
 });
