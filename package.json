@@ -23,7 +23,7 @@
     "css-loader": "^0.28.0",
     "es6-object-assign": "^1.1.0",
     "es6-promise": "^4.1.1",
-    "express": "^4.15.2",
+    "express": "^4.15.4",
     "extract-text-webpack-plugin": "^2.1.0",
     "history": "^4.7.2",
     "import-glob-loader": "^1.1.0",
@@ -44,7 +44,7 @@
     "schlepp": "^1.0.4",
     "style-loader": "^0.16.1",
     "webpack": "^2.4.1",
-    "webpack-dev-middleware": "^1.10.1"
+    "webpack-dev-middleware": "^1.12.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
